@@ -1,0 +1,193 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2f2b36f4;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 5rem;
+    padding-top: .4rem;
+}
+
+.nav-logo {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    font-size: .95rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 .5rem;
+}
+
+.nav-links a:hover {
+    color: gray;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    margin: 0;
+    padding: 6rem 5rem;
+    padding-top: 4rem;
+    height: 30vh;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-text * {
+    margin: .2rem 0;
+    padding: 0;
+}
+
+.hero-text p {
+    font-size: .75rem;
+}
+
+.hero-button {
+    padding: .3rem .75rem;
+    width: fit-content;
+    background-color: rgb(59, 143, 240);
+    color: white;
+    border-radius: .25rem;
+    border: none;
+}
+
+.hero-image {
+    width: 50%;
+    height: 100%;
+    padding: .8rem;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-info-section {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 4rem 9rem;
+    min-height: 45vh;
+}
+
+.card-info-section h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    width: 100%;
+    height: 100%;
+}
+
+.card-image {
+    height: 7.5rem;
+    width: 100%;
+    border: 3px solid rgb(59, 143, 240);
+    border-radius: 5px;
+    margin: .2rem auto;
+}
+
+.card-text {
+    color: black;
+    text-align: center;
+    font-size: .75rem;
+    font-weight: lighter;
+}
+
+.quote-section {
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+    padding: 3.5rem 12rem;
+}
+
+.quote-text {
+    color: black;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1.1rem;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: .75rem;
+    font-weight: bold;
+}
+
+.cta-section {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 4rem 5rem;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    background-color: rgb(59, 143, 240);
+    color: white;
+    margin: 0;
+    padding: 2rem 3rem;
+    border-radius: .25rem;
+}
+
+.cta-text * {
+    margin: 0;
+    padding: 0;
+}
+
+.cta-text p {
+    font-size: .75rem;
+    font-weight: lighter;
+}
+.cta-button {
+    padding: .3rem 1rem;
+    width: fit-content;
+    background-color: rgb(59, 143, 240);
+    color: white;
+    border-radius: .25rem;
+    border: 2px solid white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: .5rem 3rem;
+    font-weight: lighter;
+}
